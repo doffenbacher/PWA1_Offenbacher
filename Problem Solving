@@ -17,11 +17,16 @@ Breaking the Problem Apart
 
 Identify potential solutions
 3) Side 1 can be categorized as A, side 2 can be categorized as B, The Man will be categorized as M, and we have already categorized C,P, and S.
-a) CP cannot be grouped with A or B, PS cannot be grouped with A or B
-	CS can be grouped with A and B, M has to be grouped with CP and/or PS if grouped together
-	To start MCPS-A are grouped 
-	If CS-A are grouped then MP-B are grouped, P-B is grouped then MCS-A are grouped, MCP-B are grouped then S-A is grouped, C-B is grouped then MPS-A are grouped, MCS-B are grouped then P-B is grouped, CS-B are grouped then MP-A are grouped, finally MCPS-B can be grouped.
+	a) CP cannot be grouped with A or B, PS cannot be grouped with A or B
+		CS can be grouped with A and B, M has to be grouped with CP and/or PS if grouped together
+		To start MCPS-A are grouped 
+		If CS-A are grouped then MP-B are grouped, P-B is grouped then MCS-A are grouped, MCP-B are grouped then S-A is grouped, C-B is grouped then MPS-A are grouped, MCS-B are grouped then P-B is grouped, CS-B are grouped then MP-A are grouped, finally MCPS-B can be grouped.
 
-4) Evaluate each potential solution 
-a) The sub-goal meets the solution
-b) There can not be another solution for this problem
+4) Evaluate each potential solution.
+a) The sub-goal meets the solution.
+b) There can not be another solution to this problem.
+
+5) Choose a solution and develop a plan to implement it.
+a) For this problem I drew up a diagram that showed the man, cat, parrot, and seeds on one side of a river. The man crosses with the parrot to side B and leaves the parrot, he then returns alone to side A.  He makes a return trip across with the cat to side B, and brings the parrot back across with him to side A.  He leaves the parrot and brings the seeds to side B. He returns to side A for the parrot and brings the parrot to side B. The man takes a total of seven trips.
+b) b) Here is the drawing that I did that helped me solve this problem.
+	https://www.dropbox.com/s/a9pop03yucmo1sh/2014-02-06%2017.08.23.jpg
