@@ -9,14 +9,15 @@
 
 //Celsius to Fahrenheit Converter
 
-var degFahren = Number(prompt("Enter the degrees in Celsius" , 0));
-var degCent;
 
-degCent = 5/9 * (degFahren - 32);
+var degCent = Number(prompt("Enter the degrees in Celsius" , 0));
+var degFahren;
 
-document.write(degFahren + "\xB0 Fahrenheit is " + degCent + "xB0 Centigrade<br />");
+degFahren = (degCent * 9/5) + 32;
 
-console.log( );
+document.write(degCent + "\xB0 Centigrade is " + degFahren + "\xB0 Fahrenheit<br />");
+
+console.log(degCent);
 
 </script>
 </body>
