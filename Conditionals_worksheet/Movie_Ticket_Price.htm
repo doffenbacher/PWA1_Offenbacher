@@ -16,7 +16,7 @@ var regTicketPrice = 12;
 var senior = 55;
 var child = 10;
 
-regTicketPrice = (age < senior) ? "The ticket price is $" + regTicketPrice : "The ticket price is $" + (regTicketPrice - 5) ;
+regTicketPrice = (age < senior && age > child) ? "The ticket price is $" + regTicketPrice : "The ticket price is $" + (regTicketPrice - 5) ;
 console.log(regTicketPrice);
 
 
