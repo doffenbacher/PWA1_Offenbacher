@@ -12,12 +12,14 @@
 
 var age = Number(prompt("Enter your Age", 0));
 var time = Number(prompt("Enter the time you seeing the Movie", 0));
-var regTicketPrice = 12;
+var regTicketPrice = 12; 
+var discountTime = [3,4,5]
 var senior = 55;
 var child = 10;
 
-regTicketPrice = (age < senior && age > child) ? "The ticket price is $" + regTicketPrice : "The ticket price is $" + (regTicketPrice - 5) ;
+regTicketPrice = (age < senior && age > child && time != 3 && time != 4 && time != 5 ) ? "The ticket price is $" + regTicketPrice : "The ticket price is $" + (regTicketPrice - 5);
 console.log(regTicketPrice);
+
 
 
 </script>
