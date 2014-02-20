@@ -9,18 +9,33 @@
 
 //Letter Grade Calculator
 
-var grade = 82;
+var grade = Number(prompt("Enter the precent you received in class", "0"));
 var minAGrade = 90;
 var minBGrade = 80;
-var minCGrade = 70;
+var minCGrade = 73;
+var minDGrade = 70;
+var minFGrade = 0;
+
 if(grade >= minAGrade){
+document.write("You have a" +" " + grade + "%, which means you have a(n) A in the class!")
 	console.log("You have a" + " " + grade + "%, which means you have a(n) A in the class!");
-} 
-if(grade >= minBGrade && grade <= 89)
+}
+if(grade >= minBGrade && grade <= 89){
+document.write("You have a" +" " + grade + "%, which means you have a(n) B in the class!")
 	console.log("You have a" + " " + grade + "%, which means you have a(n) B in the class!");
-
-
-
+}
+if(grade >= minCGrade && grade <= 79){
+document.write("You have a" +" " + grade + "%, which means you have a(n) C in the class!")
+	console.log("You have a" + " " + grade + "%, which means you have a(n) C in the class!");
+}
+if(grade >= minDGrade && grade <= 72){
+document.write("You have a" +" " + grade + "%, which means you have a(n) D in the class!")
+	console.log("You have a" + " " + grade + "%, which means you have a(n) D in the class!");
+}
+if(grade >= minFGrade && grade <= 69){
+document.write("You have a" +" " + grade + "%, which means you have a(n) F in the class!")
+	console.log("You have a" + " " + grade + "%, which means you have a(n) F in the class!");
+}
 
 
 
