@@ -12,7 +12,8 @@ function calulationGallons(){
 	
 	var quarts = Number(prompt("Enter the average amount of quarts of oil will a vehicle take" , 0)); //Information collected from the user
 	var vehicle = Number(prompt("Enter how many vehicles serviced in 1 day " , 0)); //Information collected from the user
-	var gallons = .25 * quarts;
+	var gallons = .25 * quarts; //There are 4 quarts in a Gallon
+	var gallonsCollected = gallons * vehicle;
 }
 
 
