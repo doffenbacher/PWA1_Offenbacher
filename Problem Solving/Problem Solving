@@ -17,3 +17,7 @@ Breaking the Problem Apart
 
 Identify potential solutions
 3) Side 1 can be categorized as A, Side 2 can be categorized as B, The Man will be categorized as M = Man, and I have already categorized C = Cat, P = Parrot, and S = Seeds.
+	a)  CP cannot be grouped with A or B, PS cannot be grouped with A or B
+		CS can be grouped with A and B, M has to be grouped with CP and/or PS if grouped together
+		To start MCPS-A are grouped 
+		If CS-A are grouped then MP-B are grouped, P-B is grouped then MCS-A are grouped, MCP-B are grouped then S-A is grouped, C-B is grouped then MPS-A are grouped, MCS-B are grouped then P-B is grouped, CS-B are grouped then MP-A are grouped, finally MCPS-B can be grouped.
