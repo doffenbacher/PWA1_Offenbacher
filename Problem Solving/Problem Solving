@@ -21,3 +21,7 @@ Identify potential solutions
 		CS can be grouped with A and B, M has to be grouped with CP and/or PS if grouped together
 		To start MCPS-A are grouped 
 		If CS-A are grouped then MP-B are grouped, P-B is grouped then MCS-A are grouped, MCP-B are grouped then S-A is grouped, C-B is grouped then MPS-A are grouped, MCS-B are grouped then P-B is grouped, CS-B are grouped then MP-A are grouped, finally MCPS-B can be grouped.
+
+4) Evaluate each potential solution.
+	a) The sub-goal meets the solution.
+	b) There can not be another solution to this problem.
