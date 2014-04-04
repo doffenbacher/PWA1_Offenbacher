@@ -4,12 +4,12 @@ WPF
 Problem Solving
 
 A Cat, a Parrot, and a Bag of Seed:
-There is a man, a cat, a parrot, and a bag of seed on one side of a river. He has to transport all three items to the otherside on his boat, but only himself and one other item will fit on the boat. If the man leaves the cat alone with the parrot the cat will eat the parrot. If the man leaves the parrot alone with the seed the parrot will eat the seed. How can the man get all three items across without leaving the wrong items alone together? 
+There is a man, a cat, a parrot, and a bag of seed on one side of a river. He has to transport all three items to the other side on his boat, but only himself and one other item will fit on the boat. If the man leaves the cat alone with the parrot the cat will eat the parrot. If the man leaves the parrot alone with the seed the parrot will eat the seed. How can the man get all three items across without leaving the wrong items alone together? 
 
 Define the Problem
 1a) In this problem we have three items on side A that need to cross to side B. The three items need to be categorized into 3 separate items where two of those items cannot be grouped together. Cat will be called C, Parrot will be called P, and the Seeds will be called S. CP cannot be grouped together, and SP cannot be grouped together.
-1b) To add insite into this word problem I need to look at the the word problem as numbers and letters that can or cannot coincide together.
-1c) The over all goal is to get C,P, and S from side A to sibe B while following the constrains of Line 1a
+1b) To add insight into this word problem I need to look at the word problem as numbers and letters that can or cannot coincide together.
+1c) The over all goal is to get C,P, and S from side A to side B while following the constrains of Line 1a
 
 Breaking the Problem Apart
 2a) The constrains within line 1a) are that CP and PS cannot be grouped together on either side.
@@ -17,24 +17,24 @@ Breaking the Problem Apart
 
 Identify potential solutions
 3) Side 1 can be categorized as A, Side 2 can be categorized as B, The Man will be categorized as M = Man, and I have already categorized C = Cat, P = Parrot, and S = Seeds.
-	a)  CP cannot be grouped with A or B, PS cannot be grouped with A or B
+	a) CP cannot be grouped with A or B, PS cannot be grouped with A or B
 		CS can be grouped with A and B, M has to be grouped with CP and/or PS if grouped together
 		To start MCPS-A are grouped 
 		If CS-A are grouped then MP-B are grouped, P-B is grouped then MCS-A are grouped, MCP-B are grouped then S-A is grouped, C-B is grouped then MPS-A are grouped, MCS-B are grouped then P-B is grouped, CS-B are grouped then MP-A are grouped, finally MCPS-B can be grouped.
 
 4) Evaluate each potential solution.
 	a) The sub-goal meets the solution.
-	b) There can not be another solution to this problem.
+	b) There cannot be another solution to this problem.
 	
 5) Choose a solution and develop a plan to implement it.
 	a) For this problem I drew up a diagram that showed the man, cat, parrot, and seeds on one side of a river. The man crosses with the parrot to side B and leaves the parrot, he then returns alone to side A.  He makes a return trip across with the cat to side B, and brings the parrot back across with him to side A.  He leaves the parrot and brings the seeds to side B. He returns to side A for the parrot and brings the parrot to side B. The man takes a total of seven trips.
-	b) b) Here is the drawing that I did that helped me solve this problem.
+	b) Here is the drawing that I did that helped me solve this problem.
 		https://www.dropbox.com/s/cmf0hykrh7ql94t/Solution%20A%20Cat%20a%20Parrot%20and%20a%20Bag%20of%20Seeds.jpg?n=146237170
 		
 Socks in the Dark:
-If you have 20 socks in a drawer:  10 black socks, 6 brown and 4 of white. In the dark you need to pull out how many socks befor you find a matcjing pair?. You can not turn on the light until you have made your selection. What is the smallest number of selections you need before finding a pair to find the following:
-	a) at least one matching pair
-	b) at least one matching color of each color
+If you have 20 socks in a drawer:  10 black socks, 6 brown and 4 of white. In the dark you need to pull out how many socks before you find a matching pair? You cannot turn on the light until you have made your selection. What is the smallest number of selections you need before finding a pair to find the following:
+	a) At least one matching pair
+	b) At least one matching color of each color
 
 Define the Problem
 1a) in the drawer you have 4 different colors of socks
@@ -42,8 +42,4 @@ Define the Problem
 
 Identify potential solutions
 1b) To find one matching pair the smallest amount of selections one would need to find a matching pair of socks would be 2 selection. But to insure one was to find a matching pair they would need to select 4 socks.
-
-
-
-
-
+2b)
