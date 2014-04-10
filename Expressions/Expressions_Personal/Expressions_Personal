@@ -29,8 +29,8 @@ var alertUser;
 		totalAmount = amountPerDay * oneMonth  //Calculates totalAmount by multiplying amountPerDay by oneMonth
 		
 		
-		document.write("Your dog will eat " + totalAmount + " cups of dog food per month!!!");  //results appears in the Browser's Console
-		console.log("Your dog will eat " + totalAmount + " cups of dog food per month!!!");  //results prints in the Console
+		document.write("Your dog will eat " + totalAmount + " cups of dog food per month!!!");  //results appear in the Browser's Console
+		console.log("Your dog will eat " + totalAmount + " cups of dog food per month!!!");  //results print in the Console
 
 
 		
