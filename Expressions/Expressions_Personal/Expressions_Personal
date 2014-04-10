@@ -20,7 +20,7 @@ var alertUser;
 		servingsPerDay = prompt("Enter the the amount of times per day the dog eats", ""); //User is prompted to "Enter the the amount of times per day the dog eats"
 		
 		var amountPerDay
-		amountPerDay = perServing * servingsPerDay 
+		amountPerDay = perServing * servingsPerDay //Calculates amountPerDay by multiplying perServing by servingsPerDay 
 		
 		var oneMonth
 		oneMonth = prompt("Enter the days in the month", ""); //User is promted to "Enter the days in the month"
