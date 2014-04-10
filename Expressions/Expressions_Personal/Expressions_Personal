@@ -12,7 +12,9 @@ var alertUser;
 		
 		alertUser = "In this Dog Food Calculator, you will Enter in the cups per serving, Enter in the amount of times per day the dog eats, and Enter in the days of the month.";
 		alert (alertUser);
-
+		
+		var perServing
+		perServing = prompt("Enter the cups per serving", "");
 
 
 		
