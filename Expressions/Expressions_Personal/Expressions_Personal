@@ -14,7 +14,7 @@ var alertUser;
 		alert (alertUser);
 		
 		var perServing
-		perServing = prompt("Enter the cups per serving", "");
+		perServing = prompt("Enter the cups per serving", ""); //User is prompted to "Enter the cups per serving"
 
 
 		
