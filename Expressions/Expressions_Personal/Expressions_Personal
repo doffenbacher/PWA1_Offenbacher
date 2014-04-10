@@ -28,6 +28,8 @@ var alertUser;
 		var totalAmount 
 		totalAmount = amountPerDay * oneMonth + "cups per month" 
 		
+		alert(totalAmount);
+		
 		console.log(totalAmount);
 
 
