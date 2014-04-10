@@ -19,6 +19,18 @@
 		
 		var widthOfPhoto
 		widthOfPhoto = prompt("Enter the width of the photo in inches", "8"); //User is promted to enter width of the photo
+		
+		var pixelsPerInchWidth
+		pixelsPerInchWidth = widthOfPixels/widthOfPhoto
+		
+		var pixelsPerInchHeigth
+		pixelsPerInchHeigth = heightOfPixels/heightOfPhoto
+		
+		var pixelsPerInch 
+		pixelsPerInch = pixelsPerInchHeigth + "x" + pixelsPerInchWidth
+		
+	document.write("Your photo is " + pixelsPerInch + " PPI!!!"); 
+	console.log("Your photo is " + pixelsPerInch + " PPI!!!"); 
 
 
 </script>
