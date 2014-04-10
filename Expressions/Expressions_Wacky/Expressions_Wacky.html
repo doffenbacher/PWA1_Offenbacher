@@ -10,20 +10,19 @@
 
 
 	var amountPerHour 
-	amountPerHour = prompt("Enter the amount per hour you are being charged", "2.50");  
+	amountPerHour = prompt("Enter the amount per hour you are being charged", "2.50");  //User is prompted to enter in amount babysitter is charged per hour
 	
 	var totalHoursWatched 
-	totalHoursWatched = prompt("Enter in the total hours the Babysitter watched your child", "40");
+	totalHoursWatched = prompt("Enter in the total hours the Babysitter watched your child(en)", "40");  //User is prompted to enter total hours child(en) are watched
 	
 	var numberOfChildren
-	numberOfChildren = prompt("Enter in how many children you have", "2");
+	numberOfChildren = prompt("Enter in how many children you have", "2");  //User is prompted to enter in how many children they have
 	
-	var totalOwed = amountPerHour * totalHoursWatched * numberOfChildren;
+	var totalOwed = amountPerHour * totalHoursWatched * numberOfChildren;  //Calculates total amount owed by multipling amountPerHour by totalHoursWatched by numberOfChildren
 	
-	document.write("You owe your Babysitter " + "$" + totalOwed + " for watching your child this week!!!");
-	console.log("You owe your Babysitter " + "$" + totalOwed + " for watching your child this week!!!");
+	document.write("You owe your Babysitter " + "$" + totalOwed + " for watching your child this week!!!"); //results appears in the Browser's Console
+	console.log("You owe your Babysitter " + "$" + totalOwed + " for watching your child this week!!!");  //results prints in the Console
 
-	
 
 </script>
 </body>
