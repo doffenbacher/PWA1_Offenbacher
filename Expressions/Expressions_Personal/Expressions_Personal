@@ -26,11 +26,11 @@ var alertUser;
 		oneMonth = prompt("Enter the days in the month", ""); 
 		
 		var totalAmount 
-		totalAmount = amountPerDay * oneMonth + "cups per month" 
+		totalAmount = amountPerDay * oneMonth  
 		
-		alert(totalAmount);
 		
-		console.log(totalAmount);
+		document.write("Your dog will eat " + totalAmount + " cups of dog food per month!!!");
+		console.log("Your dog will eat " + totalAmount + " cups of dog food per month!!!");
 
 
 		
