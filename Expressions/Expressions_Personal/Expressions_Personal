@@ -26,7 +26,7 @@ var alertUser;
 		oneMonth = prompt("Enter the days in the month", ""); //User is promted to "Enter the days in the month"
 		
 		var totalAmount 
-		totalAmount = amountPerDay * oneMonth  
+		totalAmount = amountPerDay * oneMonth  //Calculates totalAmount by multiplying amountPerDay by oneMonth
 		
 		
 		document.write("Your dog will eat " + totalAmount + " cups of dog food per month!!!");
