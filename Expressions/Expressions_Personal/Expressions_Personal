@@ -8,6 +8,11 @@
 
 //Calculates how many cups of dog food your dog will eat in one month
 
+var alertUser;
+		
+		alertUser = "In this Dog Food Calculator, you will Enter in the cups per serving, Enter in the amount of times per day the dog eats, and Enter in the days of the month.";
+		alert (alertUser);
+
 
 
 		
