@@ -25,7 +25,10 @@ var alertUser;
 		var oneMonth
 		oneMonth = prompt("Enter the days in the month", ""); 
 		
-		console.log(oneMonth);
+		var totalAmount 
+		totalAmount = amountPerDay * oneMonth + "cups per month" 
+		
+		console.log(totalAmount);
 
 
 		
