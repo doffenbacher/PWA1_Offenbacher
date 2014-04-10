@@ -15,6 +15,9 @@ var alertUser;
 		
 		var perServing
 		perServing = prompt("Enter the cups per serving", ""); //User is prompted to "Enter the cups per serving"
+		
+		var servingsPerDay
+		servingsPerDay = prompt("Enter the the amount of times per day the dog eats", ""); 
 
 
 		
