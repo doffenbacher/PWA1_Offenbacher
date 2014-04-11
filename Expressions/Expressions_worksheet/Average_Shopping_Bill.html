@@ -12,19 +12,16 @@
 		
 		var monthlyTotals = weeklyGroceryTotals [0] + weeklyGroceryTotals [1] + weeklyGroceryTotals [2] + weeklyGroceryTotals [3] + weeklyGroceryTotals [4];
 	
-	console.log(monthlyTotals); 
+		var monthlyExpenses = monthlyTotals;
 	
-		var monthlyExpenses = monthlyTotals; 
-		
 		var WeeksInAMonth = 5; 
 		
 		var weeklyAverage = monthlyExpenses / WeeksInAMonth; 
-	
-	console.log(weeklyAverage); 
+
+	console.log("You have spent a total of $" + monthlyTotals + " on groceries over 5 weeks. That is an average of $" + weeklyAverage + " per week!!!");
 
 		
-
-
+		
 </script>
 </body>
 </html>
