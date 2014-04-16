@@ -8,11 +8,18 @@
 
 //This Calculator will determine if you make enough money to pay your car payment 
 
-	var carPayment = prompt("Enter your estimated new Monthly Car Payment");
+	var carPayment = prompt("Enter your estimated new Monthly Car Payment.");
 	var monthlyIncome = prompt("Enter your Monthly Income");
-	var currentTotalBills = prompt("Enter the total amount of your current Monthly Bills");
+	var currentTotalBills = prompt("Enter the total amount of your current Monthly Bills.");
 	
-	
+	if(carPayment === ""){
+		document.write("You forgot to Enter your estimated new Monthly Car Payment!! Please start over and enter in the estimated new Monthly Car Payment, thank you.");
+		console.log("You forgot to Enter your estimated new Monthly Car Payment!! Please start over and enter in the estimated new Monthly Car Payment, thank you.");
+	}
+	if(monthlyIncome === ""){
+		document.write("You forgot to Enter your Monthly Income!! Please start over and enter in your Monthly Income, thank you.");
+		console.log("You forgot to Enter your Monthly Income!! Please start over and enter in your Monthly Income, thank you.");
+	}
 
 </script>
 </body>
