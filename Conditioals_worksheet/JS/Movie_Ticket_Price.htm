@@ -10,16 +10,16 @@
 //In addition, if a customer is seeing a movie between 3pm and 5pm they can also get the discounted price.
 //Determine which of the two prices the customer is eligible for.
 
-var age = Number(prompt("Enter your Age", 0));
-var time = Number(prompt("Enter the time you seeing the Movie", 0));
-var regTicketPrice = 12;
-var discountTime = [3,4,5]
-var senior = 55;
-var child = 10;
+var age = Number(prompt("Enter your Age", 0)); //prompts user to Enter thier age
+var time = Number(prompt("Enter the time you seeing the Movie", 0)); //promts user to Enter movie time
+var regTicketPrice = 12; //regular movie time ticket price
+var discountTime = [3,4,5] //movie discount times 
+var senior = 55; //senior age discount
+var child = 10; //child age discount
 
 regTicketPrice = (age < senior && age > child && time != 3 && time != 4 && time != 5 ) ? "The ticket price is $" + regTicketPrice : "The ticket price is $" + (regTicketPrice - 5);
-document.write(regTicketPrice)
-console.log(regTicketPrice);
+document.write(regTicketPrice) //prints results in the users browser
+console.log(regTicketPrice); //prints results in the users console
 
 
 
