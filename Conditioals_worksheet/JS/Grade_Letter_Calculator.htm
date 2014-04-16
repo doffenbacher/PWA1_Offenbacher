@@ -6,7 +6,7 @@
 	<body>
 		<script type="text/javascript">
 
-//This Calculator will calculate your Letter Grade.
+//This Calculator will calculate your given Number Grade into a Letter Grade.
 
 	var grade = Number(prompt("Enter the precent you received in class", "0"));
 	var minAGrade = 90;
@@ -30,6 +30,10 @@ console.log("You have a" + " " + grade + "%, which means you have a(n) C in the 
 	if(grade >= minDGrade && grade <= 72){
 document.write("You have a" +" " + grade + "%, which means you have a(n) D in the class!")
 console.log("You have a" + " " + grade + "%, which means you have a(n) D in the class!");
+}
+	if(grade >= minFGrade && grade <= 69){
+document.write("You have a" +" " + grade + "%, which means you have a(n) F in the class!")
+console.log("You have a" + " " + grade + "%, which means you have a(n) F in the class!");
 }
 
 </script>
