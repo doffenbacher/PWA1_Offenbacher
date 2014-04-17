@@ -11,10 +11,18 @@
 	var budget = prompt("Enter your budget for buying your kid a new toy."); //prompts user to Enter in their budget for buying their child a new toy.
 	var newToy = prompt("Enter in the price of the new toy."); //prompts user to Enter in the amount of new toy.
 	var gotPaid = prompt("Enter in true or false: true if you got paid, false if you did not get paid" , false); // prompts user to answer question with a true or false answer
-			//if I take out the prompt for user to answer this and I type true or false this works... If user is prompted to answer true or false this does not work???
+			//if I take out the prompt for user to answer this and I type true or false this code works... If user is prompted to answer true or false this code does not work???
 			
+if(budget === ""){ //this will have the user start over and enter a budget for the new toy.
+	document.write("You did not Enter a budget for the New Toy. Please restart and Enter a budget for the New Toy, Thank you!");
+	console.log("You did not Enter a budget for the New Toy. Please restart and Enter a budget for the New Toy, Thank you!");
+}
+if(newToy === ""){ //this will have the user start over and enter in the price of the new toy.
+	document.write("You did not Enter in the price of the new toy. Please restart and Enter in the price of the new toy, Thank you!");
+	console.log("You did not Enter in the price of the new toy. Please restart and Enter in the price of the new toy, Thank you!");
+}
 if(newToy < budget || gotPaid){
-	console.log("You can buy your kid a new toy!"); //if new toy is more than the budget But you got paid today you can still buy the toy.
+	console.log("You can buy your kid a new toy!"); //if new toy is more than the budget But you got paid today you can still buy the new toy.
 	}else{
 		console.log("You can not afford the new toy today!!"); //if the new toy is more than the budget But you did not get paid today you can not buy the new toy.
 	}
