@@ -8,19 +8,22 @@
 
 //This Calculator will determine whether or not you're spending more than you're making.
 
+	
+	var itemsSold = prompt("Enter in the amount made after all items sold.");
 	var cost = prompt("Enter in the cost of materials.");
-	var profit = prompt("Enter in the profit off of materials.");
 	var hourlyWage = prompt("Enter in employees hourly wage.");
 	var hoursWorked = prompt("Enter in total hours employee worked.");
 	var totalWage = hourlyWage * hoursWorked;
+	var totalSpent = totalWage + cost;
 
+	
+	if(itemsSold === ""){
+		document.write("You forgot to Enter in the amount made after all items sold!! Please start over and Enter in the amount made after all items sold, thank you.");
+		console.log("You forgot to Enter in the amount made after all items sold!! Please start over and Enter in the amount made after all items sold, thank you.");
+	}
 	if(cost === ""){
 		document.write("You forgot to Enter in the cost of materials!! Please start over and Enter in the cost of materials, thank you.");
 		console.log("You forgot to Enter in the cost of materials!! Please start over and Enter in the cost of materials, thank you.");
-	}
-	if(profit === ""){
-		document.write("You forgot to Enter in the profit off of materials!! Please start over and Enter in the profit off of materials, thank you.");
-		console.log("You forgot to Enter in the profit off of materials!! Please start over and Enter in the profit off of materials, thank you.");
 	}
 	if(hourlyWage === ""){
 		document.write("You forgot to Enter in employees hourly wage!! Please start over and Enter in employees hourly wage, thank you.");
@@ -29,11 +32,11 @@
 	if(hoursWorked === ""){
 		document.write("You forgot to Enter in total hours employee worked!! Please start over and Enter in total hours employee worked, thank you.");
 		console.log("You forgot to Enter in total hours employee worked!! Please start over and Enter in total hours employee worked, thank you.");
-	}
-	if(cost + totalWage >= profit){
-		document.write("You are spending $" + );
-		console.log();
-	}
+	}	
+	
+	profit = (totalSpent >= itemsSold) ? "You are making a profit!" : "You are not making a profit!!!"
+		document.write(profit);
+		console.log(profit);
 	
 </script>
 </body>
