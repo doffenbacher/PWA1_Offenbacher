@@ -14,5 +14,5 @@
 			var gallofStain = 200;
 			var sqft = width * length / gallofStain;
 			
-		console.log(sqft);
+		console.log("You will need "+ sqft +" gallons of stain to complete your project!");
 		}
