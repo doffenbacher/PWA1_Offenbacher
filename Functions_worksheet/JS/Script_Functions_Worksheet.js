@@ -27,5 +27,5 @@
 	}
 
 	var x = calcNumBeeStings(8.666666667, 0);
-	document.write("It takes " + x + " bee stings to kill this animal!!");
-	console.log("It takes " + x + " bee stings to kill this animal!!");
+	document.write("It takes " + x + " bee stings to kill this animal!!"); //results appears in the Browser's Console
+	console.log("It takes " + x + " bee stings to kill this animal!!"); //results prints in the Console
