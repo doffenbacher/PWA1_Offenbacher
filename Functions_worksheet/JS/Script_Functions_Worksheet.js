@@ -8,3 +8,4 @@
 		return circumference;
 	}
 
+	var x = calcCircumference(0, 3.14); 
