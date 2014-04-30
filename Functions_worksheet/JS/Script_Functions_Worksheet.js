@@ -9,3 +9,5 @@
 	}
 
 	var x = calcCircumference(0, 3.14); 
+	
+	console.log("The circumference of the circle is " + x);
