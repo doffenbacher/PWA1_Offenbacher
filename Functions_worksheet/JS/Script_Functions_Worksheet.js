@@ -21,4 +21,8 @@
 // 8.666666667 x weigth = stingsPerPound
 
 	var calcNumBeeStings = function(beeStings, pounds){
-		}
+		var pounds = Number(prompt("Enter the the weight of the animal" , 0));
+		var stingsPerPound = beeStings * pounds;
+		return stingsPerPound;
+	}
+
