@@ -10,9 +10,9 @@
 		return circumference;
 	}
 
-	var x = calcCircumference(0, 3.14); 
-	document.write("The circumference of the circle is " + x + " inches!");
-	console.log("The circumference of the circle is " + x + " inches!");
+	var x = calcCircumference(0, 3.14); //calcCircumference equation above is now defined by var x
+	document.write("The circumference of the circle is " + x + " inches!"); //results appears in the Browser's Console
+	console.log("The circumference of the circle is " + x + " inches!"); //results prints in the Console
 
 
 // Stung!
