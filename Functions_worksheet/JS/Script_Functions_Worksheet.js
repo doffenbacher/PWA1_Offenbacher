@@ -20,3 +20,5 @@
 // It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function 
 // 8.666666667 x weigth = stingsPerPound
 
+	var calcNumBeeStings = function(beeStings, pounds){
+		}
