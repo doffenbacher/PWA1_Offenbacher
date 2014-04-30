@@ -8,4 +8,6 @@
 		alertUser = "In this Concrete Stain Calculator, you will enter in the Width and Length of your sidewalk to determine how many gallons of Concrete Stain you will need to stain your sidewalk.";
 		alert (alertUser);
 		
-		function calulationSqFt(){}
+		function calulationSqFt(){
+			var width = Number(prompt("Enter the width of the sidewalk in inches" , 0));
+		}
