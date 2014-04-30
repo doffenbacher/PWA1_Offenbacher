@@ -26,3 +26,4 @@
 		return stingsPerPound;
 	}
 
+	var x = calcNumBeeStings(8.666666667, 0);
