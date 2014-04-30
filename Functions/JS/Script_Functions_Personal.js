@@ -12,4 +12,5 @@
 			var width = Number(prompt("Enter the width of the sidewalk in inches" , 0));
 			var length = Number(prompt("Enter the overall length of the sidewalk" , 0));
 			var gallofStain = 200;
+			var sqft = width * length / gallofStain;
 		}
