@@ -3,11 +3,11 @@
 // Calculate the Circumference of a circle is C = radius x 2 x pie
 
 	var calcCircumference = function(radius, pie){
-		radius = Number(prompt("Enter the radius of the circle" , 0));
+		radius = Number(prompt("Enter the radius of the circle in inches" , 0));
 		var circumference = radius * 2 * pie;
 		return circumference;
 	}
 
 	var x = calcCircumference(0, 3.14); 
-	document.write("The circumference of the circle is " + x);
-	console.log("The circumference of the circle is " + x);
+	document.write("The circumference of the circle is " + x + " inches");
+	console.log("The circumference of the circle is " + x + " inches");
