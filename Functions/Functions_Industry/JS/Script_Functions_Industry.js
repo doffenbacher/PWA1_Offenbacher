@@ -14,5 +14,18 @@
 			var vehicle = Number(prompt("Enter how many vehicles serviced in 1 day." , 0));
 			var gallons = .25 * quarts;
 			var gallonsCollected = gallons * vehicle;
+		
+		document.write("If an Oil Stop services " + vehicle + " car's per day, they will collect " + gallonsCollected + " gallons of oil.");	
+		console.log("If an Oil Stop services " + vehicle + " car's per day, they will collect " + gallonsCollected + " gallons of oil.");
+		
+			var drum = gallonsCollected
+			var disposal
+			
+		disposal = (drum < 55) ? "The 55gal drum of oil has room for more oil, and does not need to be disposed of." : "The 55gal drums of oil are full, and they need to be properly disposed of."
+		
+		document.write("  " + disposal);
+		console.log(disposal);
+		
 		}
 
+		calulationGallons();	
