@@ -10,6 +10,7 @@
 		alert (alertUser);
 		
 		function calulationGallons(){
-			var quarts = Number(prompt("Enter the average amount of quarts of oil will a vehicle take" , 0));
+			var quarts = Number(prompt("Enter the average amount of oil in quarts a vehicle take." , 0));
+			var vehicle = Number(prompt("Enter how many vehicles serviced in 1 day." , 0));
 		}
 
