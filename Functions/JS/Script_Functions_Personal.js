@@ -9,11 +9,14 @@
 		alert (alertUser);
 		
 		function calulationSqFt(){
-			var width = Number(prompt("Enter the width of the sidewalk in inches" , 0));
-			var length = Number(prompt("Enter the overall length of the sidewalk" , 0));
+			var width = Number(prompt("Enter the width of the sidewalk in feet." , 0));
+			var length = Number(prompt("Enter the overall length of the sidewalk in feet." , 0));
 			var gallofStain = 200;
 			var sqft = width * length / gallofStain;
 		
 		document.write("You will need "+ sqft +" gallons of stain to complete your project!");	
 		console.log("You will need "+ sqft +" gallons of stain to complete your project!");
+		
 		}
+
+		calulationSqFt();
