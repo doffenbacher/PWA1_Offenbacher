@@ -13,5 +13,6 @@
 			var quarts = Number(prompt("Enter the average amount of oil in quarts a vehicle take." , 0));
 			var vehicle = Number(prompt("Enter how many vehicles serviced in 1 day." , 0));
 			var gallons = .25 * quarts;
+			var gallonsCollected = gallons * vehicle;
 		}
 
