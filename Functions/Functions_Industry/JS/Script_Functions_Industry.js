@@ -8,4 +8,6 @@
 		
 		alertUser = "In this Calculator, you will enter in the average amount of oil in quarts a vehicle will take, and you will enter in how many vehicles you serviced in 1 day.";
 		alert (alertUser);
+		
+		function calulationGallons(){}
 
