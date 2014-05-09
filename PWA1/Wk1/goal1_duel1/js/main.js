@@ -71,6 +71,8 @@
         } else if (player2Health < 1)
         {
             result = "GAME OVER " + player1 + " WINS!!!"
+
+            console.log(result);
         };
         return result;
     };
