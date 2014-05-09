@@ -65,7 +65,7 @@
         var result = "NO WINNER";
         if (player1Health < 1 && player2Health < 1)
         {
-            result = "YOU BOTH DIE!!!";
+            result = "YOU BOTH DIE!!! NO WINNER THIS ROUND!!!";
         } else if(player1Health < 1){
             result = "GAME OVER " + player2 + " WINS!!!"
         } else if (player2Health < 1)
