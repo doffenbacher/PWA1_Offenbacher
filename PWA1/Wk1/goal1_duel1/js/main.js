@@ -67,10 +67,10 @@
         {
             result = "YOU BOTH DIE!!!";
         } else if(player1Health < 1){
-            result = player2 + " WINS!!!"
+            result = "GAME OVER " + player2 + " WINS!!!"
         } else if (player2Health < 1)
         {
-            result = player1 + " WINS!!!"
+            result = "GAME OVER " + player1 + " WINS!!!"
         };
         return result;
     };
