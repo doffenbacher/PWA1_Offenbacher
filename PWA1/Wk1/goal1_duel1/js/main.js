@@ -67,10 +67,10 @@
         {
             result = "YOU BOTH DIE!!! NO WINNER THIS ROUND!!!";
         } else if(player1Health < 1){
-            result = "GAME OVER " + player2 + " WINS!!!"
+            result = "**GAME OVER** " + player2 + " WINS!!!"
         } else if (player2Health < 1)
         {
-            result = "GAME OVER " + player1 + " WINS!!!"
+            result = "**GAME OVER** " + player1 + " WINS!!!"
 
             console.log(result);
         };
