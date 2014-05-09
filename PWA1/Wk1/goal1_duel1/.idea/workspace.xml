@@ -26,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="48" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="630">
+            <state line="9" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="35" selection-start="2023" selection-end="2023" vertical-scroll-proportion="0.64" vertical-offset="525" max-vertical-offset="1275">
+            <state line="29" column="79" selection-start="621" selection-end="621" vertical-scroll-proportion="-0.06" vertical-offset="480" max-vertical-offset="1275">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -280,14 +280,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="48" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="630">
+        <state line="9" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="35" selection-start="2023" selection-end="2023" vertical-scroll-proportion="0.64" vertical-offset="525" max-vertical-offset="1275">
+        <state line="29" column="79" selection-start="621" selection-end="621" vertical-scroll-proportion="-0.06" vertical-offset="480" max-vertical-offset="1275">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
