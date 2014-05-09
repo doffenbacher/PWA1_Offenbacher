@@ -10,8 +10,8 @@
     console.log("FIGHT!!!");
 
     // Players Names
-    var player1 = "Spiderman";
-    var player2 = "Batman";
+    var player1 = "SPIDERMAN";
+    var player2 = "BATMAN";
 
     // Players Maximum Damage (15 showed best results)
     var player1MaxDamage = 15;
@@ -27,7 +27,7 @@
     function fight(){
 
         // Alerts user with a message
-        alert(player1 + "'s Health = " + player1Health + "  ** START FIGHT!! **  " + player2 + "'s Health = " + player2Health);
+        alert(player1 + "'s HEALTH = " + player1Health + "  ** START FIGHT!! **  " + player2 + "'s HEALTH = " + player2Health);
 
         // Syntax Formula
         for (var i = 0; i < 10; i++)
@@ -51,7 +51,7 @@
             if (result === "NO WINNER")
             {
                 round++;
-                alert(player1 + "'s Health = " + player1Health +"  ** ROUND " + round + " OVER **  " + player2 + "'s Health = " + player2Health);
+                alert(player1 + "'s HEALTH = " + player1Health +"  ** ROUND " + round + " OVER **  " + player2 + "'s HEALTH = " + player2Health);
 
             } else{
                 alert(result);
