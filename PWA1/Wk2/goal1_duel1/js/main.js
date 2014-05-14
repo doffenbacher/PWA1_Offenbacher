@@ -25,14 +25,14 @@
         for (var i = 0; i < 10; i++)
         {
             // Random Syntax Formula: Math.floor(Math.random() * (max - min) + min);
-            var player1MinDamage = fighter1 * .5;
-            var player2MinDamage = fighter2 * .5;
-            var formula1 = Math.floor(Math.random()*(fighter1 - player1MinDamage) + player1MinDamage);
-            var formula2 = Math.floor(Math.random()*(fighter2 - player2MinDamage) + player2MinDamage);
+            var player1MinDamage = fighter1[1] * .5;
+            var player2MinDamage = fighter2[1] * .5;
+            var formula1 = Math.floor(Math.random()*(fighter1[1] - player1MinDamage) + player1MinDamage);
+            var formula2 = Math.floor(Math.random()*(fighter2[1] - player2MinDamage) + player2MinDamage);
 
             // Players Damage Inflicted
-            fighter1 -= formula1;
-            fighter2 -= formula2;
+            fighter1[2] -= formula1;
+            fighter2[2] -= formula2;
 
             // Results Print In The Console
             console.log(fighter1 + ": " + fighter1 + " " + fighter2 + ":" + fighter2);
