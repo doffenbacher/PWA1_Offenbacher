@@ -1,7 +1,7 @@
 /*
  David Offenbacher
- 05-09-2014
- Assignment: THE DUEL #1 Part 1
+ 05-14-2014
+ Assignment: THE DUEL Part #2
 */
 
 
