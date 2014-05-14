@@ -9,17 +9,9 @@
     // "FIGHT!!!" Print In The Console
     console.log("FIGHT!!!");
 
-    // Players Names
-    var player1 = "SPIDERMAN";
-    var player2 = "BATMAN";
-
-    // Players Maximum Damage (15 showed best results)
-    var player1MaxDamage = 15;
-    var player2MaxDamage = 15;
-
-    // Players Starting Health
-    var player1Health = 100;
-    var player2Health = 100;
+    // Players Names,  Players Maximum Damage (15 showed best results),  Players Starting Health
+    var fighter1 = ["SPIDERMAN", 15, 100];
+    var fighter2 = ["BATMAN", 15, 100];
 
     // Start Round
     var round = 0;
@@ -27,23 +19,23 @@
     function fight(){
 
         // Alerts user with a message
-        alert(player1 + "'s HEALTH = " + player1Health + "  ** START FIGHT!! **  " + player2 + "'s HEALTH = " + player2Health);
+        alert(fighter1[0] + "'s HEALTH = " + fighter1[2] + "  ** START FIGHT!! **  " + fighter2[0] + "'s HEALTH = " + fighter2[2]);
 
         // Syntax Formula
         for (var i = 0; i < 10; i++)
         {
             // Random Syntax Formula: Math.floor(Math.random() * (max - min) + min);
-            var player1MinDamage = player1MaxDamage * .5;
-            var player2MinDamage = player2MaxDamage * .5;
-            var formula1 = Math.floor(Math.random()*(player1MaxDamage - player1MinDamage) + player1MinDamage);
-            var formula2 = Math.floor(Math.random()*(player2MaxDamage - player2MinDamage) + player2MinDamage);
+            var player1MinDamage = fighter1 * .5;
+            var player2MinDamage = fighter2 * .5;
+            var formula1 = Math.floor(Math.random()*(fighter1 - player1MinDamage) + player1MinDamage);
+            var formula2 = Math.floor(Math.random()*(fighter2 - player2MinDamage) + player2MinDamage);
 
             // Players Damage Inflicted
-            player1Health -= formula1;
-            player2Health -= formula2;
+            fighter1 -= formula1;
+            fighter2 -= formula2;
 
             // Results Print In The Console
-            console.log(player1 + ": " + player1Health + " " + player2 + ":" + player2Health);
+            console.log(fighter1 + ": " + fighter1 + " " + fighter2 + ":" + fighter2);
 
             // Checks for Winner
             var result = winnerCheck();
@@ -51,7 +43,7 @@
             if (result === "NO WINNER")
             {
                 round++;
-                alert(player1 + "'s HEALTH = " + player1Health +"  ** ROUND " + round + " OVER **  " + player2 + "'s HEALTH = " + player2Health);
+                alert(fighter1 + "'s HEALTH = " + fighter1 +"  ** ROUND " + round + " OVER **  " + fighter2 + "'s HEALTH = " + fighter2);
 
             } else{
                 alert(result);
@@ -63,14 +55,14 @@
 
     function winnerCheck(){
         var result = "NO WINNER";
-        if (player1Health < 1 && player2Health < 1)
+        if (fighter1 < 1 && fighter2 < 1)
         {
             result = "YOU BOTH DIE!!! NO WINNER THIS ROUND!!!";
-        } else if(player1Health < 1){
-            result = "**GAME OVER** " + player2 + " WINS!!!"
-        } else if (player2Health < 1)
+        } else if(fighter1 < 1){
+            result = "**GAME OVER** " + fighter2 + " WINS!!!"
+        } else if (fighter2 < 1)
         {
-            result = "**GAME OVER** " + player1 + " WINS!!!"
+            result = "**GAME OVER** " + fighter1 + " WINS!!!"
 
             console.log(result);
         };
