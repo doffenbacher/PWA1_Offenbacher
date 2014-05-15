@@ -20,4 +20,10 @@
         button: document.querySelector('button')
     };
 
+    function guessGame(){
+        if (playerGuess === magicNumber){
+        
+        }
+    }
+
 })();
