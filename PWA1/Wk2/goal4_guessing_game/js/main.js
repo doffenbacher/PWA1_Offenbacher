@@ -22,7 +22,9 @@
 
     function guessGame(){
         if (playerGuess === magicNumber){
-        
+            dom.output.innerHTML = "That IS CORRECT!!! The number was " + magicNumber + "!";
+            console.log("Guess " + guessNumber + ": " + playerGuess);
+            dom.button.onclick = ""
         }
     }
 
