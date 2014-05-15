@@ -9,6 +9,7 @@
 
 //Game variables
 (function (){
-
+    var magicNumber = Math.floor(Math.random() * (10 - 1) + 1);
+        
 
 })();
