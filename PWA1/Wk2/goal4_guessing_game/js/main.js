@@ -34,7 +34,21 @@
 
         console.log("Guess " + guessNumber + ": " + playerGuess);
 
-        }
+        }else if (playerGuess < magicNumber){
+            guessNumber++;
+            numberOfGuesses--;
+            dom.output.innerHTML = "THAT IS TOO LOW!!! That was guess: " + guessNumber + ", Remaining guesses: " + numberOfGuesses;
+
+            console.log("Guess " + guessNumber + ": " + playerGuess);
+
+        };
+
+        if (numberOfGuesses === 0){
+            dom.output.innerHTML = "NO MORE GUESSES LEFT!!! The number was: " + magicNumber + "!";
+            dom.button.onclick = "";
+        };
+
+        
     }
 
 })();
