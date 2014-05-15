@@ -14,4 +14,10 @@
     var numberOfGuesses = 3;
     console.log("The magic number is: " + magicNumber);
 
+    var dom = {
+        input: document.querySelector('#input'),
+        output: document.querySelector('#output'),
+        button: document.querySelector('button')
+    };
+
 })();

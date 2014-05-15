@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MagicNumber.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MagicNumber.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MagicNumber.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="7" selection-start="324" selection-end="324" vertical-scroll-proportion="0.202977" vertical-offset="0" max-vertical-offset="739">
+            <state line="4" column="7" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="55" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="20" column="6" selection-start="481" selection-end="481" vertical-scroll-proportion="0.3931848" vertical-offset="0" max-vertical-offset="763">
               <folding />
             </state>
           </provider>
@@ -51,8 +51,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/MagicNumber.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -216,16 +216,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/MagicNumber.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="55" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="4" column="7" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MagicNumber.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="324" selection-end="324" vertical-scroll-proportion="0.202977" vertical-offset="0" max-vertical-offset="739">
+        <state line="20" column="6" selection-start="481" selection-end="481" vertical-scroll-proportion="0.3931848" vertical-offset="0" max-vertical-offset="763">
           <folding />
         </state>
       </provider>
