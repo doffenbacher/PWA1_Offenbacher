@@ -22,9 +22,18 @@
 
     function guessGame(){
         if (playerGuess === magicNumber){
-            dom.output.innerHTML = "That IS CORRECT!!! The number was " + magicNumber + "!";
-            console.log("Guess " + guessNumber + ": " + playerGuess);
+            dom.output.innerHTML = "THAT IS CORRECT!!! The number was " + magicNumber + "!";
             dom.button.onclick = ""
+
+            console.log("Guess " + guessNumber + ": " + playerGuess);
+
+        }else if (playerGuess > magicNumber){
+        guessNumber++;
+        numberOfGuesses--;
+        dom.output.innerHTML = "THAT IS TOO HIGH!!! That was guess: " + guessNumber + ", Remaining guesses: " + numberOfGuesses;
+
+        console.log("Guess " + guessNumber + ": " + playerGuess);
+
         }
     }
 
