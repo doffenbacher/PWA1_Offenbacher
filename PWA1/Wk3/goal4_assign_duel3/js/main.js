@@ -6,9 +6,10 @@
 
 
 (function(){
-    // "FIGHT!!!" Print In The Console
 
-    console.log("FIGHT!!!");
+
+    console.log("FIGHT!!!"); // "FIGHT!!!" Print In The Console
+
 	/*
     Players Names,  Players Maximum Damage,  Players Starting Health
     var fighter1 = ["SPIDERMAN", 20, 100];
@@ -67,16 +68,16 @@
             fighters[0].health -= formula1;
             fighters[1].health -= formula2;
 
-            // Results Print In The Console
+            // Fighters Health Prints In The Console
             console.log(fighters[0].health, fighters[1].health);
 
             // Checks for Winner
             var results = winnerCheck();
-            console.log(results);
+            console.log(results);// Winner Results Print In The Console
 
             round_txt.innerHTML = "Round #" + round + " Results:";
             round++;
-            if (results === "NO WINNER")
+            if (results === "NO WINNER") //If no winner Displays results of Remaining Fights Health
             {
                 fighter1_txt.innerHTML = fighters[0].name + " : " + fighters[0].health;
                 fighter2_txt.innerHTML = fighters[1].name + " : " + fighters[1].health;
@@ -87,7 +88,7 @@
 
                 button.removeEventListener("click", fight, false);
 
-                document.querySelector('.buttonblue').innerHTML = 'DONE!!!';
+                document.querySelector('.buttonblue').innerHTML = 'DONE!!!'; //Button changes from "NEXT" to "DONE!!!"
             };
 
         };
