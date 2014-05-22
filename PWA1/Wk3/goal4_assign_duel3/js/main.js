@@ -15,7 +15,8 @@
     var fighter1 = ["SPIDERMAN", 20, 100];
     var fighter2 = ["BATMAN", 20, 100];
 	*/
-	
+
+    //Define HTML tags
     var fighter1_txt = document.querySelector("#Spiderman").querySelector("p");
     var fighter2_txt = document.querySelector("#Batman").querySelector("p");
     var round_txt = document.querySelector("h5");
@@ -25,6 +26,7 @@
 
     button.addEventListener("click", fight, false);
 
+    // Array Objects for two fighters
     var fighters = [
         {
             name: "Spiderman",
@@ -40,6 +42,7 @@
     // Start Round
     var round = 1;
 
+    //Initialize DOM innerHTML for HTML tags at top of page
     round_txt.innerHTML = "Click FIGHT BUTTON To START!!!";
     fighter1_txt.innerHTML = fighters[0].name + " : " + fighters[0].health;
     fighter2_txt.innerHTML = fighters[1].name + " : " + fighters[1].health;
