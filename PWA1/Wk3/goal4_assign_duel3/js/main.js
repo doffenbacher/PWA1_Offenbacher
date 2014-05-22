@@ -17,10 +17,10 @@
 	*/
 
     //Define HTML tags
-    var fighter1_txt = document.querySelector("#Spiderman").querySelector("p");
+    var fighter1_txt = document.querySelector("#Spiderman").querySelector("p"); //querySelector used so # needs to be used
     var fighter2_txt = document.querySelector("#Batman").querySelector("p");
-    var round_txt = document.querySelector("h5");
-    var button = document.getElementById("fight_btn");
+    var round_txt = document.querySelector("h5"); //used h5 because I updated my index.HTML file 
+    var button = document.getElementById("fight_btn"); //getElementById used so no # needed
 
     console.log();
 
