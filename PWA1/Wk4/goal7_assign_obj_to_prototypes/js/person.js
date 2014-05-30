@@ -30,6 +30,10 @@
         id.innerHTML=this.action;
     }
 
+    /*
+    Person's update method. This function occurs 30 times a seconds
+    and randomly determines if the action changes for each person
+    */
 
     Person.prototype.update = function(){
         if (Math.floor(Math.random() <.01)){
