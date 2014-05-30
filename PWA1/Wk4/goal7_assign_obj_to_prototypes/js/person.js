@@ -1,5 +1,15 @@
 /**
- * Created by the JavaScript Development Team
- * Class: PWA
- * Goal: Goal7
+ * Created by David Offenbacher
+ * Class: PWA1
+ * Goal: Advanced Objects person.js
  */
+
+(function(){
+
+    window.Person=Person;
+
+    Person.jobs = ["teacher", "actor", "student", "pilot"];
+    Person.actions = ["sleeping", "eating", "working"];
+
+
+}
