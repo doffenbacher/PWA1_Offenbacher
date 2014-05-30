@@ -25,4 +25,17 @@
     }
 
     clearInterval(interval);
-}
+
+    interval = setInterval(runUpdate, 1000 / 30);
+
+    function populateHTML(data,field){
+        var id=document.getElementById(field);
+        id.innerHTML = data;
+    }
+
+    function runUpdate(){
+        people.forEach(function(elemnt){
+            elemnt.update();
+        });
+    }
+})();
