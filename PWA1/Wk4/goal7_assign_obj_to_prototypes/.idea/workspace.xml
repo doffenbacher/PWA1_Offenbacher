@@ -35,7 +35,7 @@
       <file leaf-file-name="person.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="252" selection-end="252" vertical-scroll-proportion="0.3043478" vertical-offset="0" max-vertical-offset="690">
+            <state line="28" column="4" selection-start="655" selection-end="655" vertical-scroll-proportion="0.6086956" vertical-offset="0" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -343,7 +343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="252" selection-end="252" vertical-scroll-proportion="0.3043478" vertical-offset="0" max-vertical-offset="690">
+        <state line="28" column="4" selection-start="655" selection-end="655" vertical-scroll-proportion="0.6086956" vertical-offset="0" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
