@@ -16,17 +16,20 @@
 
         this.name = name;
 
+        //sets initial action for each person randomly
         this.action = Person.actions[Math.floor(Math.random()*Person.actions.length)];
 
+        //sets job per person randomly
         this.job = Person.jobs[Math.floor(Math.random()*Person.jobs.length)];
 
+        //defines row so JS knows what row in the HTML to update the text in
         this.row = row;
 
+        //displays initial action
         var id = document.getElementById("r"+this.row+"c3");
         id.innerHTML=this.action;
     }
 
+
     
-
-
 }
